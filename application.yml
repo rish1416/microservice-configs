@@ -7,6 +7,8 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-  jpa:
-    generate-ddl: true
+
+spring:
+   jpa:
+     generate-ddl: true
 
